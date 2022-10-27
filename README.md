@@ -1,5 +1,5 @@
 ﻿# PinyinNet
-[![Build status](https://ci.appveyor.com/api/projects/status/qsc7d2uwxopdx2d8?svg=true)](https://ci.appveyor.com/project/nepton/securitypassword)
+[![Build status](https://ci.appveyor.com/api/projects/status/np7c7landwamcwf4?svg=true)](https://ci.appveyor.com/project/nepton/pinyinnet)
 [![CodeQL](https://github.com/nepton/PinyinNet/actions/workflows/codeql.yml/badge.svg)](https://github.com/nepton/PinyinNet/actions/workflows/codeql.yml)
 ![GitHub issues](https://img.shields.io/github/issues/nepton/PinyinNet.svg)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/nepton/PinyinNet/blob/master/LICENSE)
