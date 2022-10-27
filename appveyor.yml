@@ -28,7 +28,7 @@ build_script:
 
 artifacts:
   - path: "src/**/*.nupkg"
-    name: "LinqAsync NuGet Packages"
+    name: "PinYinNet NuGet Packages"
 
 deploy:
   - provider: NuGet
