@@ -3,7 +3,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 
-namespace Doulex.Pinyin
+namespace PinyinNet
 {
     /// <summary>
     /// 根据传入的中文创建对应的拼音（支持部分多音字）
@@ -30,7 +30,7 @@ namespace Doulex.Pinyin
         /// <summary>
         /// 加载字典（如果没有加载过）
         /// </summary>
-        public static void Load()
+        private static void Load()
         {
             if (_dict == null)
             {
@@ -83,7 +83,9 @@ namespace Doulex.Pinyin
         /// <returns></returns>
         private static string TranslateToPinyin(string strChinese)
         {
-            Debug.Assert(strChinese != null);
+            if(strChinese == null )
+                strChinese = "";
+            
             string strPinyin = string.Empty;
 
             int iStep = 0;
@@ -118,7 +120,7 @@ namespace Doulex.Pinyin
                 }
             }
 
-            return strPinyin;
+            return strPinyin.TrimEnd('|');
         }
 
 
@@ -138,7 +140,7 @@ namespace Doulex.Pinyin
         /// </summary>
         /// <param name="strChinese"></param>
         /// <returns></returns>
-        public static string GetPinyinForShort(string strChinese)
+        public static string GetPinyinFirstLetter(string strChinese)
         {
             string[] strPinyins = TranslateToPinyin(strChinese).Split(new[]
             {
@@ -156,7 +158,6 @@ namespace Doulex.Pinyin
 
         /// <summary>
         /// 把传入字符串拼接为拼音、拼音简写和中文
-        /// 例如：刘万里 拼接结果为 "lwl liuwanli 刘万里"
         /// </summary>
         /// <param name="strChinese"></param>
         /// <returns></returns>

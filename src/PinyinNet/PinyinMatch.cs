@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Doulex.Pinyin
+namespace PinyinNet
 {
 	/// <summary>
 	/// 通过指定输入判断匹配的位置, 判断支持 仅声母或者声母韵母

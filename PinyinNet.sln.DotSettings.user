@@ -2,10 +2,17 @@
 	<s:String x:Key="/Default/CodeInspection/PencilsConfiguration/FiltersState/=NamingFilter/@EntryIndexedValue">On</s:String>
 	<s:String x:Key="/Default/CodeInspection/PencilsConfiguration/FiltersState/=SpellingFilter/@EntryIndexedValue">On</s:String>
 	<s:String x:Key="/Default/Environment/Highlighting/HighlightingMode/@EntryValue">OnlyMarkers</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3e0c4e04_002D6f9b_002D4939_002Db69e_002D0fb6845e38fc/@EntryIndexedValue">&lt;SessionState ContinuousTestingIsOn="True" ContinuousTestingMode="3" IsActive="True" Name="All tests from &amp;lt;tests&amp;gt;\&amp;lt;Doulex.Toolkit.Tests&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">C:\Users\Nepton\AppData\Local\Temp\JetBrains\ReSharperPlatformVs17\vAny_be798dd9\CoverageData\_Pinyin.Net.-1210213038\Snapshot\snapshot.utdcvr</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3e0c4e04_002D6f9b_002D4939_002Db69e_002D0fb6845e38fc/@EntryIndexedValue">&lt;SessionState ContinuousTestingIsOn="True" ContinuousTestingMode="3" Name="All tests from &amp;lt;tests&amp;gt;\&amp;lt;Doulex.Toolkit.Tests&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;Project Location="D:\Project\Doulex\Doulex.Toolkits\tests\Doulex.Toolkit.Tests" Presentation="&amp;lt;tests&amp;gt;\&amp;lt;Doulex.Toolkit.Tests&amp;gt;" /&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4487eeec_002De524_002D414b_002Da219_002Dbf95e2539eae/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TestPinyin" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::BFAC50F8-FC6E-464D-90C6-94887A11DDB6::net6.0::UnitTest.PinyinNet.PinyinNetTester&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=src_002FDoulex_002EPinyin_002FPinyinResource/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=src_002FPinyin_002ENet_002FPinyinResource/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/Initialized/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=Aliyun/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=Doulex/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Doulex.Pinyin
+namespace PinyinNet
 {
     /// <summary>
     /// 拼音树节点
